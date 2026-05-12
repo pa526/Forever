@@ -4,7 +4,7 @@ import Title from "../components/Title";
 import axios from "axios";
 
 
-export const Orders = () => {
+const Orders = () => {
 
   const {backendUrl, token, currency} = useContext(ShopContext);
 
@@ -78,3 +78,5 @@ export const Orders = () => {
     </div>
   )
 }
+
+export default Orders

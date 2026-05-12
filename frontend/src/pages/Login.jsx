@@ -4,7 +4,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 
-export const Login = () => {
+const Login = () => {
 
   const [currState, setCurrState] = useState('Login');
 
@@ -68,3 +68,6 @@ export const Login = () => {
     </form>
   )
 }
+
+export default Login
+

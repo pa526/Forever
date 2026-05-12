@@ -1,8 +1,14 @@
-  {
-    "rewrites": [
-      {
-        "source": "/(.*)",
-        "destination": "/"
-      }
-    ]
-  }
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "env": {
+    "VITE_BACKEND_URL": "@vite_backend_url",
+    "VITE_RAZORPAY_KEY_ID": "@vite_razorpay_key_id"
+  },
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
+}

@@ -8,7 +8,7 @@ import { toast } from "react-toastify"
 import { currency } from "../../../admin/src/App"
 
 
-export const PlaceOrder = () => {
+const PlaceOrder = () => {
 
   const [method, setMethod] = useState('cod');
   const {navigate, backendUrl, token, cartItems, setCartItems, getCartAmount, delivery_fee, products} = useContext(ShopContext);
@@ -179,3 +179,5 @@ export const PlaceOrder = () => {
     </form>
   )
 }
+
+export default PlaceOrder

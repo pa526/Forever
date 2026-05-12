@@ -3,7 +3,7 @@ import NewsletterBox from "../components/NewsletterBox"
 import Title from "../components/Title"
 
 
-export const Contact = () => {
+const Contact = () => {
   return (
     <div>
       
@@ -28,3 +28,5 @@ export const Contact = () => {
     </div>
   )
 }
+
+export default Contact;
